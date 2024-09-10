@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <ul ngbNav #nav="ngbNav" class="nav-tabs">
+        <li [ngbNavItem]="1">
+          <a ngbNavLink>User</a>
+          <ng-template ngbNavContent
+            ><app-user-form></app-user-form>
+          </ng-template>
+        </li>
+        <li [ngbNavItem]="2">
+          <a ngbNavLink>Chart</a>
+          <ng-template ngbNavContent>
+            <app-pie-charts></app-pie-charts>
+          </ng-template>
+        </li>
+      </ul>
+      <div [ngbNavOutlet]="nav"></div>
+    </div>
+  </div>
+</div>

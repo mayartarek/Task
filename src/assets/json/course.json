@@ -1,0 +1,22 @@
+[
+  {
+    "courseId": 1,
+    "courseName": "course 1",
+    "registeredStudents": 50
+  },
+  {
+    "courseId": 2,
+    "courseName": "course 2",
+    "registeredStudents": 30
+  },
+  {
+    "courseId": 3,
+    "courseName": "course 3",
+    "registeredStudents": 40
+  },
+  {
+    "courseId": 4,
+    "courseName": "course 4",
+    "registeredStudents": 15
+  }
+]
